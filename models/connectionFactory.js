@@ -4,7 +4,7 @@ function createDBConnection(){
 		return mysql.createConnection({
 			host: 'localhost',
 			user: 'root',
-			password: '3060',
+			password: '',
 			database: 'discodb'			
 		});
 }
