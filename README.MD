@@ -1,3 +1,3 @@
-* Coleção de discos *
+#*Coleção de discos*#
 
 Como executar este projeto.
