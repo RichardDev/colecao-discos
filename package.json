@@ -1,0 +1,31 @@
+{
+  "name": "colecao-discos",
+  "version": "1.0.0",
+  "description": "\"Aplicativo para organizar os discos musicais em coleções.\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "NODE=prod ./node_modules/.bin/nodemon index.js"
+  },
+  "keywords": [
+    "album",
+    "music",
+    "collection"
+  ],
+  "author": "Richard Garcia",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "consign": "^0.1.6",
+    "express": "^4.15.2",
+    "express-validator": "^2.20.8",
+    "mysql": "^2.17.1",
+    "mysql2": "^1.7.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "mocha": "^6.2.0",
+    "nodemon": "^1.19.1"
+  }
+}
